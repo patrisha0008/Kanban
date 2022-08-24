@@ -32,15 +32,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 530px;
-    background-color: #b892ff;
+    margin-top: 530px ;
+
 }
 
 .switch {
     position: relative;
     display: inline-block;
-    width: 40px;
+    width: 39px;
     height: 22px;
+    margin: 0px 8px;
 }
 
 .switch input {
@@ -69,7 +70,7 @@ body {
     bottom: 2px;
     background: #fff;
     border-radius: 50%;
-    transition: .4s;
+    transition: .3s;
 }
 
 input:checked+.slider {
@@ -81,10 +82,19 @@ input:checked+.slider:before {
 }
 
 .dark-mode {
-    background: #0b0a14;
+    background: #050505;
+}
+
+.dark-mode .sidebar {
+  background-color: #2A2A2A;
+}
+
+.dark-mode .topbar {
+  background-color: #2A2A2A;
 }
 
 .dark-mode h1 {
     color: #f7f0e9;
 }
+
 
